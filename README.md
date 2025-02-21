@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# AI-Powered Dream Job Pathfinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, intuitive onboarding interface where users can create their career profile through an engaging multi-step form that collects skills, interests, and experience while providing real-time AI insights.
+Clean, minimalist design with a progress indicator showing the 4-5 steps of profile creation (Personal Info, Skills Assessment, Interest Survey, Experience Input)
+Interactive skill selection interface with searchable tags and AI-suggested skills based on user input
+Engaging questionnaire with slider-based personality trait assessment and interest mapping
+Real-time validation and smart suggestions as users type their experience and education details
+Prominent "Generate Career Paths" CTA button that animates while AI processes the profile
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/e8f689d4-854d-4d20-856a-011c34720c53)
+![image](https://github.com/user-attachments/assets/06a6fce2-b823-49cf-88d2-d76f8d042ec6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
